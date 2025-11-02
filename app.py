@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import datetime as dt
 
 app = Flask(__name__)
-app.secret_key = "supergeheimes_passwort"
+app.secret_key = "DiyarSito2021#"
 
 # Login-Daten für Admin
 ADMIN_USER = "fahrlehrer"

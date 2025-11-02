@@ -5,8 +5,8 @@ app = Flask(__name__)
 app.secret_key = "DiyarSito2021#"
 
 # Login-Daten für Admin
-ADMIN_USER = "fahrlehrer"
-ADMIN_PASS = "1234"
+ADMIN_USER = "momogienak"
+ADMIN_PASS = "DiyarSito2021#"
 
 # ----- Termin-Generierung -----
 def generate_week_appointments():
